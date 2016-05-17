@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD8829951CEB2244003FC2D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8829941CEB2244003FC2D2 /* main.m */; };
+		CD8829981CEB2244003FC2D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8829971CEB2244003FC2D2 /* AppDelegate.m */; };
+		CD88299B1CEB2244003FC2D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD88299A1CEB2244003FC2D2 /* ViewController.m */; };
+		CD88299E1CEB2244003FC2D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD88299C1CEB2244003FC2D2 /* Main.storyboard */; };
+		CD8829A01CEB2244003FC2D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD88299F1CEB2244003FC2D2 /* Assets.xcassets */; };
+		CD8829A31CEB2244003FC2D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8829A11CEB2244003FC2D2 /* LaunchScreen.storyboard */; };
+		CD8829AE1CEB2244003FC2D2 /* UncaughtExceptionHandlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8829AD1CEB2244003FC2D2 /* UncaughtExceptionHandlerTests.m */; };
+		CD8829B91CEB2244003FC2D2 /* UncaughtExceptionHandlerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8829B81CEB2244003FC2D2 /* UncaughtExceptionHandlerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD8829AA1CEB2244003FC2D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD8829881CEB2244003FC2D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD88298F1CEB2244003FC2D2;
+			remoteInfo = UncaughtExceptionHandler;
+		};
+		CD8829B51CEB2244003FC2D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD8829881CEB2244003FC2D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD88298F1CEB2244003FC2D2;
+			remoteInfo = UncaughtExceptionHandler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD8829901CEB2244003FC2D2 /* UncaughtExceptionHandler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UncaughtExceptionHandler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8829941CEB2244003FC2D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD8829961CEB2244003FC2D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD8829971CEB2244003FC2D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD8829991CEB2244003FC2D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD88299A1CEB2244003FC2D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD88299D1CEB2244003FC2D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD88299F1CEB2244003FC2D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD8829A21CEB2244003FC2D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD8829A41CEB2244003FC2D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD8829A91CEB2244003FC2D2 /* UncaughtExceptionHandlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UncaughtExceptionHandlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8829AD1CEB2244003FC2D2 /* UncaughtExceptionHandlerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UncaughtExceptionHandlerTests.m; sourceTree = "<group>"; };
+		CD8829AF1CEB2244003FC2D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD8829B41CEB2244003FC2D2 /* UncaughtExceptionHandlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UncaughtExceptionHandlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8829B81CEB2244003FC2D2 /* UncaughtExceptionHandlerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UncaughtExceptionHandlerUITests.m; sourceTree = "<group>"; };
+		CD8829BA1CEB2244003FC2D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD88298D1CEB2244003FC2D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8829A61CEB2244003FC2D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8829B11CEB2244003FC2D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD8829871CEB2244003FC2D2 = {
+			isa = PBXGroup;
+			children = (
+				CD8829921CEB2244003FC2D2 /* UncaughtExceptionHandler */,
+				CD8829AC1CEB2244003FC2D2 /* UncaughtExceptionHandlerTests */,
+				CD8829B71CEB2244003FC2D2 /* UncaughtExceptionHandlerUITests */,
+				CD8829911CEB2244003FC2D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD8829911CEB2244003FC2D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD8829901CEB2244003FC2D2 /* UncaughtExceptionHandler.app */,
+				CD8829A91CEB2244003FC2D2 /* UncaughtExceptionHandlerTests.xctest */,
+				CD8829B41CEB2244003FC2D2 /* UncaughtExceptionHandlerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD8829921CEB2244003FC2D2 /* UncaughtExceptionHandler */ = {
+			isa = PBXGroup;
+			children = (
+				CD8829961CEB2244003FC2D2 /* AppDelegate.h */,
+				CD8829971CEB2244003FC2D2 /* AppDelegate.m */,
+				CD8829991CEB2244003FC2D2 /* ViewController.h */,
+				CD88299A1CEB2244003FC2D2 /* ViewController.m */,
+				CD88299C1CEB2244003FC2D2 /* Main.storyboard */,
+				CD88299F1CEB2244003FC2D2 /* Assets.xcassets */,
+				CD8829A11CEB2244003FC2D2 /* LaunchScreen.storyboard */,
+				CD8829A41CEB2244003FC2D2 /* Info.plist */,
+				CD8829931CEB2244003FC2D2 /* Supporting Files */,
+			);
+			path = UncaughtExceptionHandler;
+			sourceTree = "<group>";
+		};
+		CD8829931CEB2244003FC2D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD8829941CEB2244003FC2D2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD8829AC1CEB2244003FC2D2 /* UncaughtExceptionHandlerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD8829AD1CEB2244003FC2D2 /* UncaughtExceptionHandlerTests.m */,
+				CD8829AF1CEB2244003FC2D2 /* Info.plist */,
+			);
+			path = UncaughtExceptionHandlerTests;
+			sourceTree = "<group>";
+		};
+		CD8829B71CEB2244003FC2D2 /* UncaughtExceptionHandlerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD8829B81CEB2244003FC2D2 /* UncaughtExceptionHandlerUITests.m */,
+				CD8829BA1CEB2244003FC2D2 /* Info.plist */,
+			);
+			path = UncaughtExceptionHandlerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD88298F1CEB2244003FC2D2 /* UncaughtExceptionHandler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8829BD1CEB2244003FC2D2 /* Build configuration list for PBXNativeTarget "UncaughtExceptionHandler" */;
+			buildPhases = (
+				CD88298C1CEB2244003FC2D2 /* Sources */,
+				CD88298D1CEB2244003FC2D2 /* Frameworks */,
+				CD88298E1CEB2244003FC2D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UncaughtExceptionHandler;
+			productName = UncaughtExceptionHandler;
+			productReference = CD8829901CEB2244003FC2D2 /* UncaughtExceptionHandler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD8829A81CEB2244003FC2D2 /* UncaughtExceptionHandlerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8829C01CEB2244003FC2D2 /* Build configuration list for PBXNativeTarget "UncaughtExceptionHandlerTests" */;
+			buildPhases = (
+				CD8829A51CEB2244003FC2D2 /* Sources */,
+				CD8829A61CEB2244003FC2D2 /* Frameworks */,
+				CD8829A71CEB2244003FC2D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD8829AB1CEB2244003FC2D2 /* PBXTargetDependency */,
+			);
+			name = UncaughtExceptionHandlerTests;
+			productName = UncaughtExceptionHandlerTests;
+			productReference = CD8829A91CEB2244003FC2D2 /* UncaughtExceptionHandlerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD8829B31CEB2244003FC2D2 /* UncaughtExceptionHandlerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8829C31CEB2244003FC2D2 /* Build configuration list for PBXNativeTarget "UncaughtExceptionHandlerUITests" */;
+			buildPhases = (
+				CD8829B01CEB2244003FC2D2 /* Sources */,
+				CD8829B11CEB2244003FC2D2 /* Frameworks */,
+				CD8829B21CEB2244003FC2D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD8829B61CEB2244003FC2D2 /* PBXTargetDependency */,
+			);
+			name = UncaughtExceptionHandlerUITests;
+			productName = UncaughtExceptionHandlerUITests;
+			productReference = CD8829B41CEB2244003FC2D2 /* UncaughtExceptionHandlerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD8829881CEB2244003FC2D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = yiban;
+				TargetAttributes = {
+					CD88298F1CEB2244003FC2D2 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					CD8829A81CEB2244003FC2D2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CD88298F1CEB2244003FC2D2;
+					};
+					CD8829B31CEB2244003FC2D2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CD88298F1CEB2244003FC2D2;
+					};
+				};
+			};
+			buildConfigurationList = CD88298B1CEB2244003FC2D2 /* Build configuration list for PBXProject "UncaughtExceptionHandler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD8829871CEB2244003FC2D2;
+			productRefGroup = CD8829911CEB2244003FC2D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD88298F1CEB2244003FC2D2 /* UncaughtExceptionHandler */,
+				CD8829A81CEB2244003FC2D2 /* UncaughtExceptionHandlerTests */,
+				CD8829B31CEB2244003FC2D2 /* UncaughtExceptionHandlerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD88298E1CEB2244003FC2D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8829A31CEB2244003FC2D2 /* LaunchScreen.storyboard in Resources */,
+				CD8829A01CEB2244003FC2D2 /* Assets.xcassets in Resources */,
+				CD88299E1CEB2244003FC2D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8829A71CEB2244003FC2D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8829B21CEB2244003FC2D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD88298C1CEB2244003FC2D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD88299B1CEB2244003FC2D2 /* ViewController.m in Sources */,
+				CD8829981CEB2244003FC2D2 /* AppDelegate.m in Sources */,
+				CD8829951CEB2244003FC2D2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8829A51CEB2244003FC2D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8829AE1CEB2244003FC2D2 /* UncaughtExceptionHandlerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8829B01CEB2244003FC2D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8829B91CEB2244003FC2D2 /* UncaughtExceptionHandlerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD8829AB1CEB2244003FC2D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD88298F1CEB2244003FC2D2 /* UncaughtExceptionHandler */;
+			targetProxy = CD8829AA1CEB2244003FC2D2 /* PBXContainerItemProxy */;
+		};
+		CD8829B61CEB2244003FC2D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD88298F1CEB2244003FC2D2 /* UncaughtExceptionHandler */;
+			targetProxy = CD8829B51CEB2244003FC2D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD88299C1CEB2244003FC2D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD88299D1CEB2244003FC2D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD8829A11CEB2244003FC2D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD8829A21CEB2244003FC2D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD8829BB1CEB2244003FC2D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD8829BC1CEB2244003FC2D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD8829BE1CEB2244003FC2D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UncaughtExceptionHandler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiban.UncaughtExceptionHandler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD8829BF1CEB2244003FC2D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UncaughtExceptionHandler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiban.UncaughtExceptionHandler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD8829C11CEB2244003FC2D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UncaughtExceptionHandlerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiban.UncaughtExceptionHandlerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UncaughtExceptionHandler.app/UncaughtExceptionHandler";
+			};
+			name = Debug;
+		};
+		CD8829C21CEB2244003FC2D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UncaughtExceptionHandlerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiban.UncaughtExceptionHandlerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UncaughtExceptionHandler.app/UncaughtExceptionHandler";
+			};
+			name = Release;
+		};
+		CD8829C41CEB2244003FC2D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UncaughtExceptionHandlerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiban.UncaughtExceptionHandlerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UncaughtExceptionHandler;
+			};
+			name = Debug;
+		};
+		CD8829C51CEB2244003FC2D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UncaughtExceptionHandlerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiban.UncaughtExceptionHandlerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UncaughtExceptionHandler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD88298B1CEB2244003FC2D2 /* Build configuration list for PBXProject "UncaughtExceptionHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8829BB1CEB2244003FC2D2 /* Debug */,
+				CD8829BC1CEB2244003FC2D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD8829BD1CEB2244003FC2D2 /* Build configuration list for PBXNativeTarget "UncaughtExceptionHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8829BE1CEB2244003FC2D2 /* Debug */,
+				CD8829BF1CEB2244003FC2D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD8829C01CEB2244003FC2D2 /* Build configuration list for PBXNativeTarget "UncaughtExceptionHandlerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8829C11CEB2244003FC2D2 /* Debug */,
+				CD8829C21CEB2244003FC2D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD8829C31CEB2244003FC2D2 /* Build configuration list for PBXNativeTarget "UncaughtExceptionHandlerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8829C41CEB2244003FC2D2 /* Debug */,
+				CD8829C51CEB2244003FC2D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD8829881CEB2244003FC2D2 /* Project object */;
+}
