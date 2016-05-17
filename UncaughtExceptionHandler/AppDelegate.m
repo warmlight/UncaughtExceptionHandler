@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "UncaughtExceptionHandler.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [UncaughtExceptionHandler installUncaughtExceptionHandler:YES showAlert:YES];
+    
+    //用来制造一些异常
+    [self performSelector:@selector(string) withObject:nil afterDelay:2.0];
     return YES;
 }
 

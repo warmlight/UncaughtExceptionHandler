@@ -15,6 +15,7 @@
 		CD8829A31CEB2244003FC2D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8829A11CEB2244003FC2D2 /* LaunchScreen.storyboard */; };
 		CD8829AE1CEB2244003FC2D2 /* UncaughtExceptionHandlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8829AD1CEB2244003FC2D2 /* UncaughtExceptionHandlerTests.m */; };
 		CD8829B91CEB2244003FC2D2 /* UncaughtExceptionHandlerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8829B81CEB2244003FC2D2 /* UncaughtExceptionHandlerUITests.m */; };
+		CD8829C91CEB22AB003FC2D2 /* UncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8829C81CEB22AB003FC2D2 /* UncaughtExceptionHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CD8829B41CEB2244003FC2D2 /* UncaughtExceptionHandlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UncaughtExceptionHandlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD8829B81CEB2244003FC2D2 /* UncaughtExceptionHandlerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UncaughtExceptionHandlerUITests.m; sourceTree = "<group>"; };
 		CD8829BA1CEB2244003FC2D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD8829C71CEB22AB003FC2D2 /* UncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		CD8829C81CEB22AB003FC2D2 /* UncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UncaughtExceptionHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		CD8829921CEB2244003FC2D2 /* UncaughtExceptionHandler */ = {
 			isa = PBXGroup;
 			children = (
+				CD8829C61CEB2293003FC2D2 /* exceptionHandler */,
 				CD8829961CEB2244003FC2D2 /* AppDelegate.h */,
 				CD8829971CEB2244003FC2D2 /* AppDelegate.m */,
 				CD8829991CEB2244003FC2D2 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				CD8829BA1CEB2244003FC2D2 /* Info.plist */,
 			);
 			path = UncaughtExceptionHandlerUITests;
+			sourceTree = "<group>";
+		};
+		CD8829C61CEB2293003FC2D2 /* exceptionHandler */ = {
+			isa = PBXGroup;
+			children = (
+				CD8829C71CEB22AB003FC2D2 /* UncaughtExceptionHandler.h */,
+				CD8829C81CEB22AB003FC2D2 /* UncaughtExceptionHandler.m */,
+			);
+			path = exceptionHandler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD88299B1CEB2244003FC2D2 /* ViewController.m in Sources */,
+				CD8829C91CEB22AB003FC2D2 /* UncaughtExceptionHandler.m in Sources */,
 				CD8829981CEB2244003FC2D2 /* AppDelegate.m in Sources */,
 				CD8829951CEB2244003FC2D2 /* main.m in Sources */,
 			);
@@ -414,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UncaughtExceptionHandler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yiban.UncaughtExceptionHandler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UncaughtExceptionHandler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yiban.UncaughtExceptionHandler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
