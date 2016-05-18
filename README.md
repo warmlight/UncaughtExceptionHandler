@@ -1,6 +1,20 @@
 # iOS崩溃 捕获异常处理
 
-　　网上基本使用的都是同一个版本的异常捕获，我能了解到的关于signal异常捕获的方法也是通过这个版本。我在自己理解的基础上对于这个版本进行了一些修改，也添加了一些注释。下面贴出主要的代码。  
+　　网上基本使用的都是同一个版本的异常捕获，我能了解到的关于signal异常捕获的方法也是通过这个版本。我在自己理解的基础上对于这个版本进行了一些修改，也添加了一些注释。下面贴出主要的代码。
+　　
+## 使用 how to use
+将`exceptionHandler`文件夹拖入工程  
+
+```objective-c
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
+    // Override point for customization after app launch    
+	
+    [UncaughtExceptionHandler installUncaughtExceptionHandler:YES showAlert:YES];
+
+	return YES;
+}
+```
+## 主要代码  
 
 ```objective-c
 /*!
@@ -189,17 +203,6 @@ void SignalHandler(int signal) {
 }
 ```
 　　　上面的函数就是最红用来处理异常的函数，在`validateAndSaveCriticalApplicationData`函数里我们可以根据自己的需求进行操作，比如可以把异常信息写入本地在特定的时间发送给指定服务器，或者实时的进行信息的发送等。这里屏蔽了一些警告，因为项目要支持到iOS7。
-
-## 使用
-```objective-c
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-    // Override point for customization after app launch    
-	
-    [UncaughtExceptionHandler installUncaughtExceptionHandler:YES showAlert:YES];
-
-	return YES;
-}
-```
 
 ####写在最后
 　　其实这上面的代码我也不是完全弄懂了每一句话，比如`OSAtomicIncrement32(&UncaughtExceptionCount)`，比如alertView点击了退出按钮后执行的一系列代码。如果有知道的留言告诉我一下吧~~小女子不胜感激！
