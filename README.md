@@ -1,7 +1,6 @@
 # iOS崩溃 捕获异常处理
 
 　　网上基本使用的都是同一个版本的异常捕获，我能了解到的关于signal异常捕获的方法也是通过这个版本。我在自己理解的基础上对于这个版本进行了一些修改，也添加了一些注释。下面贴出主要的代码。  
-　　完整代码的下载地址：[git](https://github.com/warmlight/UncaughtExceptionHandler)  
 
 ```objective-c
 /*!
