@@ -202,7 +202,7 @@ void SignalHandler(int signal) {
 	}
 }
 ```
-　　　上面的函数就是最红用来处理异常的函数，在`validateAndSaveCriticalApplicationData`函数里我们可以根据自己的需求进行操作，比如可以把异常信息写入本地在特定的时间发送给指定服务器，或者实时的进行信息的发送等。这里屏蔽了一些警告，因为项目要支持到iOS7。
+　　　上面的函数就是最后用来处理异常的函数，在`validateAndSaveCriticalApplicationData`函数里我们可以根据自己的需求进行操作，比如可以把异常信息写入本地在特定的时间发送给指定服务器，或者实时的进行信息的发送等。这里屏蔽了一些警告，因为项目要支持到iOS7。
 
 ####写在最后
 　　其实这上面的代码我也不是完全弄懂了每一句话，比如`OSAtomicIncrement32(&UncaughtExceptionCount)`，比如alertView点击了退出按钮后执行的一系列代码。如果有知道的留言告诉我一下吧~~小女子不胜感激！
